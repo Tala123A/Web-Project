@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+#logo{
+    padding-left:30px;
+}
+
+.nav-list li a:hover {
+    color: #00000036; 
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .nav-list {
+        flex-direction: column; /* Set flex-direction to column for smaller screens */
+        align-items: flex-start; /* Align items to the start of the column */
+    }
+    
+    .nav-list li {
+        margin-left: 0; /* Reset margin */
+    }
+  }
+
+.Aboutt{
+    background-color: #d4ff90;
+    font-size: 1.8em;
+    font-weight: 800;
+    display: flex; 
+    justify-content: center;    
+}
+.Aboutp{
+    font-size: 1.5em;
+    padding-left: 0;
+    padding-right: 0;   
+}
+.review{
+    background-color: white;
+    width: 60%;
+    height: 30%;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 200px;
+   
+    
+}
+.review h2{
+    font-size: 1.8em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+}
+.form-container {
+    background-color: #d3ff9d;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #c8fb9c;
+    border-radius: 10px;
+}
+
+.form-container button {
+    background-color: #4c9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #9edb78;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+th,td {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #9edb78;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ffe4c4;
+}
+
+
+.containerr{
+    position: relative;
+  width:100%;
+    height:50vh;
+    
+}
+video{
+    width:100%;
+    height:550px;
+}
+.containerr .content{
+    position: absolute;
+    top: 0;
+    left:0;
+    padding:30vh ;
+    background: #000000;
+    width: 100%;
+    height: 90vh;
+    font-size: 8rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 1px;
+    mix-blend-mode: multiply;
+    text-align: center;
+
+}
+footer{
+    background-color: lightgrey;
+    height:50px;
+}
+

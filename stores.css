@@ -1,0 +1,158 @@
+
+  
+  *{
+    scroll-behavior: smooth;
+  }
+
+.header {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  
+  .bottom-header {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+  }
+  .header-logo img {
+    height: 70px; 
+    width: auto;
+    margin-right:5px; 
+  }
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list li {
+    margin-left: 20px;
+  }
+  
+  
+  .nav-list li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+  }
+  .fa-instagram{
+    padding-left:12px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-top:1px;
+  margin-right: 9px;
+  }
+  .fa-tiktok{
+    padding-top:1px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  margin-left: 11px;
+  
+  }
+  
+  
+  .nav-list li a:hover {
+    color: #00000036; 
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-list {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    
+    .nav-list li {
+        margin-left: 0;
+    }
+  }
+ 
+  #foot{
+    background-color: rgb(239, 239, 239);
+   
+  
+  
+  }
+  footer a{
+    text-decoration: none;
+    color: #000;
+  }
+  footer a:hover{
+    text-decoration: none;
+  }
+  .bold{
+   font-size: larger;
+  }
+  .branches {
+    padding: 50px 0;
+}
+
+.branches h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #a6d489;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: #000;
+    border-radius:70px;
+
+}
+
+.branch-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.branch-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.branch-card p {
+    margin: 0;
+    color: #555;
+}
+
+.branch-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.branch-card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .header .bottom-header {
+        flex-direction: column;
+    }
+
+    .header .navigations .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .branches {
+        padding: 20px 0;
+    }
+
+    .branches h1 {
+        font-size: 1.5rem;
+    }
+}
+a{
+  margin-left: 30px;
+}
+
+
+

@@ -1,0 +1,200 @@
+
+.header {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+.bottom-header {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+.header-logo img {
+  height: 70px; 
+  width: auto;
+  margin-right:5px; 
+}
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  margin-left: 15px;
+}
+
+
+.nav-list li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 30px; 
+}
+.fa-instagram{
+
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding-top:1px;
+padding-left: 20px;
+}
+.fa-tiktok{
+  padding-top:1px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+padding-left: 30px;
+
+}
+
+
+.nav-list li a:hover {
+  color: #00000036; 
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+      flex-direction: column; 
+      align-items: flex-start;
+  }
+  
+  .nav-list li {
+      margin-left: 0;
+  }
+}
+video{
+  position: static;
+  width: 100%;
+  height:auto;
+  left: 0;
+
+}
+.gray{
+  background-color:#ededed
+
+  } 
+p{
+  padding: 0%;
+  background-color: rgb(253, 253, 253);
+}
+h3{ font-weight: lighter;
+  margin-left: 85px;
+color: rgb(0, 0, 0);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{
+  margin-left: 85px;
+  font-weight: bolder;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+h5{
+  margin-left: 85px;
+  font-weight: lighter;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#img2{
+  padding-top: 100px;
+  float: right;
+  margin-left: 60px;
+  height: 400px;
+  width: 300px; ;
+}
+#img3{
+  padding-top: 60px;
+  float: right;
+  margin-left: 60px;
+  height: 400px;
+  width: 300px; 
+  padding-bottom: 20px;
+  margin-right: 90px;
+  margin-left: 10px;
+}
+
+h5 a{
+  text-decoration: none;
+  color: black;
+}
+h5 a:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(238, 238, 238);
+}
+#hello{
+  color:black;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: lighter;
+  font-size: large;
+}
+#jj{
+  text-align: center;
+  font-size: xx-large; 
+  padding-top: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+  font-weight: bolder;
+}
+#pl{   padding-top: 30px;
+  font-size: small;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+}
+
+
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+.description {
+  
+  text-align: center;
+  text-align-last: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust width as needed */
+  height:80%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  
+}
+
+.image-container:hover .description {
+  opacity: 0.9;
+}
+#foot{
+  background-color: rgb(239, 239, 239);
+ height: 50px;
+
+
+}
+footer a{
+  text-decoration: none;
+  color: #000;
+}
+footer a:hover{
+  text-decoration: none;
+}
+.bold{
+ font-size: larger;
+}
+#logo{
+  padding-left:30px;
+}
+
